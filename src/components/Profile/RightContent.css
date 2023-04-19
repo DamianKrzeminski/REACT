@@ -1,0 +1,16 @@
+.RightContentProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    height: 98%;
+    opacity: 75%;
+    background-color: brown;
+}
+
+@media screen and (max-width: 800px){
+    .RightContentProfile{
+        width: 95%;
+        height: 48%;
+    }
+}

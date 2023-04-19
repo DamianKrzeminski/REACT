@@ -1,0 +1,40 @@
+.LeftContentProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 48%;
+    height: 98%;
+    opacity: 75%;
+    background-color: green;
+}
+
+.personalDataBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 94%;
+    height: 6%;
+    font-weight: 600;
+    border-radius: 20%;
+    margin-top: 1rem;
+    background-color: antiquewhite;
+}
+
+.personalDataTextLabel{
+    display: flex;
+    width: 46%;
+}
+
+.personalDataText{
+    display: flex;
+    justify-content: right;
+    width: 46%;
+}
+
+@media screen and (max-width: 800px){
+    .LeftContentProfile{
+        width: 95%;
+        height: 48%;
+    }
+}

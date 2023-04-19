@@ -1,0 +1,16 @@
+.LeftContentHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    height: 98%;
+    opacity: 75%;
+    background-color: green;
+}
+
+@media screen and (max-width: 800px){
+    .LeftContentHome{
+        width: 95%;
+        height: 48%;
+    }
+}

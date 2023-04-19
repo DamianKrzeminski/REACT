@@ -1,0 +1,17 @@
+.RightContentHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 48%;
+    height: 98%;
+    opacity: 75%;
+    background-color: brown;
+}
+
+@media screen and (max-width: 800px){
+    .RightContentHome{
+        width: 95%;
+        height: 48%;
+    }
+}

@@ -1,0 +1,13 @@
+.Profile{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+}
+
+@media screen and (max-width: 800px){
+    .Profile{
+        flex-direction: column;
+        align-items: center;
+    }
+}

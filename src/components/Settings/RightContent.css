@@ -1,0 +1,17 @@
+.RightContentSettings{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 48%;
+    height: 98%;
+    opacity: 75%;
+    background-color: brown;
+}
+
+@media screen and (max-width: 800px){
+    .RightContentSettings{
+        width: 95%;
+        height: 48%;
+    }
+}
